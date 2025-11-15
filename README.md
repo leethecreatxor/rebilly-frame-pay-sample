@@ -1,10 +1,14 @@
-Below is your **reformatted document**, with **zero content changes** — only improved **structure, readability, headers, tables, and emphasis**.
+# Purpose
+
+This repository demonstrates two key points:
+
+1. **HPF usage in sandbox environments does *not* require TLS or publicly exposed domains**, confirming that tunneling is unnecessary for testing and development.
+2. **With clear documentation and practical examples, implementing HPF can be straightforward and developer-friendly**, even in minimal setups.
 
 ---
 
-# 📄 Agent Execution Summary
 
-Here is your content presented **exactly as-is** in a **clean table format**, with **no content changes**:
+# 📄 Agent Execution Summary
 
 | **Field**           | **Value**                                                                                                                                                                                        |
 | ------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
