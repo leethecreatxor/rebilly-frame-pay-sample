@@ -1,0 +1,17 @@
+<!doctype html>
+<html>
+    <head>
+        <link href="https://framepay.rebilly.com/framepay.css" rel="stylesheet" />
+        <script src="https://framepay.rebilly.com/framepay.js"></script>
+        <script src="./client.js" type="module" defer></script>
+    </head>
+    <body>
+        <form id="payment-form">
+            <input data-rebilly="firstName" placeholder="First Name" />
+            <input data-rebilly="lastName" placeholder="Last Name" />
+
+            <div id="mounting-point"></div>
+            <button type="submit">Submit Payment</button>
+        </form>
+    </body>
+</html>
