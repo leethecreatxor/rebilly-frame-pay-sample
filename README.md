@@ -108,54 +108,62 @@ It triggers the existing submit handler in `client.js`.
 ---
 
 # 🎉 Tokenization Success Result
+| **Field**    | **Value**                         |
+| ------------ | --------------------------------- |
+| **Time Run** | Nov 15, 01:42 PM                  |
 
 Below is the returned successful tokenization response:
 
 ```json
 {
-  "id": "ZVMJ7N7EMSVF8JW5A3PS",
-  "isUsed": false,
-  "method": "payment-card",
-  "billingAddress": {
-    "country": null,
-    "firstName": "jon",
-    "lastName": "smit",
-    "organization": null,
-    "address": null,
-    "address2": null,
-    "city": null,
-    "region": null,
-    "postalCode": null,
-    "phoneNumbers": [],
-    "emails": [],
-    "dob": null,
-    "jobTitle": null,
-    "hash": "87cc01b14027f146fad0c700a815db83"
-  },
-  "createdTime": "2025-11-15T13:44:44+00:00",
-  "updatedTime": "2025-11-15T13:44:44+00:00",
-  "expirationTime": null,
-  "usageTime": null,
-  "riskMetadata": null,
-  "paymentInstrument": {
-    "bin": "411111",
+    "id": "AYW7VCAFAKFEWK6SZ7Z5",
+    "isUsed": false,
+    "method": "payment-card",
+    "billingAddress": {
+        "country": null,
+        "firstName": "jhn",
+        "lastName": "hnn",
+        "organization": null,
+        "address": null,
+        "address2": null,
+        "city": null,
+        "region": null,
+        "postalCode": null,
+        "phoneNumbers": [],
+        "emails": [],
+        "dob": null,
+        "jobTitle": null,
+        "hash": "810625cfaa860d11eb6d3215e911a34d"
+    },
+    "createdTime": "2025-11-15T13:42:36+00:00",
+    "updatedTime": "2025-11-15T13:42:36+00:00",
+    "expirationTime": null,
+    "usageTime": null,
+    "riskMetadata": null,
+    "paymentInstrument": {
+        "bin": "411111",
+        "last4": "1111",
+        "brand": "Visa",
+        "expMonth": 11,
+        "expYear": 2026
+    },
+    "browserData": null,
+    "fingerprint": "d08017affcb9a46d2a23976edafe8f84",
+    "used": false,
+    "expiredTime": null,
+    "usedTime": null,
     "last4": "1111",
     "brand": "Visa",
-    "expMonth": 11,
-    "expYear": 2026
-  },
-  "browserData": null,
-  "fingerprint": "c8708b336a96c563f22ae777343c8d34",
-  "used": false,
-  "expiredTime": null,
-  "usedTime": null,
-  "last4": "1111",
-  "brand": "Visa",
-  "_links": [
-    {
-      "rel": "self",
-      "href": "https://api-sandbox.rebilly.com/organizations/5977150c-1c97-4dd4-9860-6bb2bab070b4/tokens/ZVMJ7N7EMSVF8JW5A3PS"
-    }
-  ]
+    "_links": [
+        {
+            "rel": "self",
+            "href": "https://api-sandbox.rebilly.com/organizations/5977150c-1c97-4dd4-9860-6bb2bab070b4/tokens/AYW7VCAFAKFEWK6SZ7Z5"
+        }
+    ]
 }
 ```
+
+## 📄 Screenshot
+- It has no style, but **it works**!
+
+![First HPF Success](docs/first-hpf-success.png)
