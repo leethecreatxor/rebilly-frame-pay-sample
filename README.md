@@ -16,7 +16,7 @@ This repository demonstrates three key points:
 | **Download Sample** | [https://www.rebilly.com/docs/dev-docs/setup-payment-card-method?\_\_step=include-framepay-script](https://www.rebilly.com/docs/dev-docs/setup-payment-card-method?__step=include-framepay-script) |
 | **Prompts Taken**   | **3**                                                                                                                                                                                              |
 | **Total Tokens**    | **112.9k**                                                                                                                                                                                         |
-| **Total Cost**      | **$0.028225** (112.9k / 1M × $0.25)                                                                                                                                                                |
+| **Total Cost**      | **$0.141125** (112.9k / 1M × $1.25)                                                                                                                                                                |
 | **Time Taken**      | Less than 10 minutes                                                                                                                                                                               |
 
 ---
